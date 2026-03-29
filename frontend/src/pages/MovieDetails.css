@@ -1,0 +1,238 @@
+.movie-details {
+  min-height: 100vh;
+}
+
+.movie-hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 60px;
+}
+
+.movie-hero-content {
+  max-width: 800px;
+}
+
+.movie-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.movie-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.action-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background: rgba(26, 26, 26, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: var(--transition);
+  backdrop-filter: blur(10px);
+}
+
+.action-btn:hover {
+  background: var(--red-primary);
+  border-color: var(--red-primary);
+}
+
+.movie-content {
+  padding-top: 40px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 40px;
+}
+
+.movie-meta-tags {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.meta-tag {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.rating-tag {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.3);
+}
+
+.movie-genres {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.genre-tag {
+  padding: 6px 16px;
+  background: rgba(229, 9, 20, 0.15);
+  border: 1px solid rgba(229, 9, 20, 0.3);
+  border-radius: 50px;
+  font-size: 0.85rem;
+  color: var(--red-primary);
+  font-weight: 500;
+}
+
+.movie-section {
+  margin-bottom: 36px;
+}
+
+.movie-section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.movie-description {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.cast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.cast-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.cast-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--gradient-red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.cast-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.cast-character {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* Sidebar */
+.sidebar-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  position: sticky;
+  top: 90px;
+}
+
+.sidebar-poster {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.sidebar-info {
+  padding: 24px;
+}
+
+.sidebar-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar-row:last-child {
+  border-bottom: none;
+}
+
+.sidebar-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.sidebar-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.premium-badge {
+  margin-top: 16px;
+  padding: 10px;
+  background: var(--gradient-red);
+  border-radius: var(--radius-md);
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Player */
+.player-fullscreen {
+  position: fixed;
+  inset: 0;
+  background: black;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  aspect-ratio: 16 / 9;
+}
+
+.close-player {
+  margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+  .movie-grid {
+    grid-template-columns: 1fr;
+  }
+  .movie-title {
+    font-size: 2rem;
+  }
+}
