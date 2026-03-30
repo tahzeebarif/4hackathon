@@ -89,7 +89,7 @@ const seedDB = async () => {
         rating: 8.5,
         thumbnail: '/src/assets/Image (38).png',
         bannerImage: '/src/assets/Image (38).png',
-        videoUrl: 'https://www.youtube.com/watch?v=ppKw0qj4F08',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Rishab Shetty', character: 'Shiva', image: '' }]
       },
       {
@@ -101,7 +101,7 @@ const seedDB = async () => {
         rating: 8.7,
         thumbnail: '/src/assets/Image (39).png',
         bannerImage: '/src/assets/Image (39).png',
-        videoUrl: 'https://www.youtube.com/watch?v=b9EkMc79ZSU',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Millie Bobby Brown', character: 'Eleven', image: '' }],
         type: 'show'
       },
@@ -114,7 +114,7 @@ const seedDB = async () => {
         rating: 9.0,
         thumbnail: '/src/assets/Image (40).png',
         bannerImage: '/src/assets/Image (40).png',
-        videoUrl: 'https://www.youtube.com/watch?v=EXeTwQWrcwY',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Christian Bale', character: 'Bruce Wayne / Batman', image: '' }]
       },
       {
@@ -126,7 +126,7 @@ const seedDB = async () => {
         rating: 9.5,
         thumbnail: '/src/assets/Image (41).png',
         bannerImage: '/src/assets/Image (41).png',
-        videoUrl: 'https://www.youtube.com/watch?v=HhesaQXLuRY',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Bryan Cranston', character: 'Walter White', image: '' }],
         type: 'show'
       },
@@ -139,7 +139,7 @@ const seedDB = async () => {
         rating: 8.8,
         thumbnail: '/src/assets/Image (43).png',
         bannerImage: '/src/assets/Image (43).png',
-        videoUrl: 'https://www.youtube.com/watch?v=YoHD9XEInc0',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Leonardo DiCaprio', character: 'Cobb', image: '' }]
       },
       {
@@ -151,7 +151,7 @@ const seedDB = async () => {
         rating: 8.2,
         thumbnail: '/src/assets/Image (44).png',
         bannerImage: '/src/assets/Image (44).png',
-        videoUrl: 'https://www.youtube.com/watch?v=htUFPSImrPU',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Álvaro Morte', character: 'El Profesor', image: '' }],
         type: 'show',
         language: 'Spanish'
@@ -165,7 +165,7 @@ const seedDB = async () => {
         rating: 8.7,
         thumbnail: '/src/assets/Image (45).png',
         bannerImage: '/src/assets/Image (45).png',
-        videoUrl: 'https://www.youtube.com/watch?v=zSWdZVtXT7E',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Matthew McConaughey', character: 'Cooper', image: '' }],
         featured: true
       },
@@ -178,7 +178,7 @@ const seedDB = async () => {
         rating: 8.0,
         thumbnail: '/src/assets/Image (46).png',
         bannerImage: '/src/assets/Image (46).png',
-        videoUrl: 'https://www.youtube.com/watch?v=ndl1W4ltcmg',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Henry Cavill', character: 'Geralt', image: '' }],
         type: 'show'
       },
@@ -191,7 +191,7 @@ const seedDB = async () => {
         rating: 8.4,
         thumbnail: '/src/assets/Image (47).png',
         bannerImage: '/src/assets/avengers_endgame_hero.png',
-        videoUrl: 'https://www.youtube.com/watch?v=TcMBFSGVi1c',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Robert Downey Jr.', character: 'Tony Stark', image: '' }]
       },
       {
@@ -203,7 +203,7 @@ const seedDB = async () => {
         rating: 8.0,
         thumbnail: '/src/assets/Image (48).png',
         bannerImage: '/src/assets/Image (48).png',
-        videoUrl: 'https://www.youtube.com/watch?v=oqxAJKy0ii4',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Lee Jung-jae', character: 'Seong Gi-hun', image: '' }],
         type: 'show',
         language: 'Korean'
@@ -217,7 +217,7 @@ const seedDB = async () => {
         rating: 9.3,
         thumbnail: '/src/assets/Image (49).png',
         bannerImage: '/src/assets/Image (49).png',
-        videoUrl: 'https://www.youtube.com/watch?v=6hB3S9bIaco',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Tim Robbins', character: 'Andy Dufresne', image: '' }]
       },
       {
@@ -229,7 +229,7 @@ const seedDB = async () => {
         rating: 7.5,
         thumbnail: '/src/assets/Image (50).png',
         bannerImage: '/src/assets/Image (50).png',
-        videoUrl: 'https://www.youtube.com/watch?v=k10ETZ41q5o',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Patrick Wilson', character: 'Ed Warren', image: '' }]
       },
       {
@@ -241,7 +241,7 @@ const seedDB = async () => {
         rating: 8.1,
         thumbnail: '/src/assets/Image (51).png',
         bannerImage: '/src/assets/Image (51).png',
-        videoUrl: 'https://www.youtube.com/watch?v=Di310WS8zLk',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Jenna Ortega', character: 'Wednesday', image: '' }],
         type: 'show'
       },
@@ -254,7 +254,7 @@ const seedDB = async () => {
         rating: 6.9,
         thumbnail: '/src/assets/Image (53).png',
         bannerImage: '/src/assets/Image (53).png',
-        videoUrl: 'https://www.youtube.com/watch?v=2QKg5SZ_35I',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Dwayne Johnson', character: 'Dr. Smolder Bravestone', image: '' }]
       },
       {
@@ -266,26 +266,26 @@ const seedDB = async () => {
         rating: 8.8,
         thumbnail: '/src/assets/Image (54).png',
         bannerImage: '/src/assets/Image (54).png',
-        videoUrl: 'https://www.youtube.com/watch?v=oVzVdvGIC7U',
+        videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         cast: [{ name: 'Cillian Murphy', character: 'Tommy Shelby', image: '' }],
         type: 'show',
         isPremium: true
       },
-      { title: 'The Matrix', description: 'When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.', genre: ['Action', 'Sci-Fi'], duration: '2h 16min', releaseYear: 1999, rating: 8.7, thumbnail: '/src/assets/Image (55).png', bannerImage: '/src/assets/Image (55).png', videoUrl: 'https://www.youtube.com/watch?v=vKQi3bBA1y8', cast: [], type: 'movie', views: 9100 },
-      { title: 'Gladiator', description: 'A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.', genre: ['Action', 'Adventure', 'Drama'], duration: '2h 35min', releaseYear: 2000, rating: 8.5, thumbnail: '/src/assets/Image (56).png', bannerImage: '/src/assets/Image (56).png', videoUrl: 'https://www.youtube.com/watch?v=owK1qxDselE', cast: [], type: 'movie', views: 5400 },
-      { title: 'Dune: Part Two', description: 'Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.', genre: ['Action', 'Adventure', 'Drama'], duration: '2h 46min', releaseYear: 2024, rating: 8.9, thumbnail: '/src/assets/Image (57).png', bannerImage: '/src/assets/Image (57).png', videoUrl: 'https://www.youtube.com/watch?v=_YUzQa_1RCE', cast: [], type: 'movie', createdAt: '2024-03-01T00:00:00Z', views: 4000 },
-      { title: 'Oppenheimer', description: 'The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.', genre: ['Biography', 'Drama', 'History'], duration: '3h', releaseYear: 2023, rating: 8.6, thumbnail: '/src/assets/Image (58).png', bannerImage: '/src/assets/Image (58).png', videoUrl: 'https://www.youtube.com/watch?v=uYPbbksJxIg', cast: [], type: 'movie', createdAt: '2023-07-21T00:00:00Z', views: 6000 },
-      { title: 'John Wick: Chapter 4', description: 'John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy.', genre: ['Action', 'Crime', 'Thriller'], duration: '2h 49min', releaseYear: 2023, rating: 8.3, thumbnail: '/src/assets/Image (59).png', bannerImage: '/src/assets/Image (59).png', videoUrl: 'https://www.youtube.com/watch?v=qEVUtrk8_B4', cast: [], type: 'movie', createdAt: '2023-03-24T00:00:00Z', views: 8000 },
-      { title: 'Spider-Man: Across the Spider-Verse', description: 'Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.', genre: ['Animation', 'Action', 'Adventure'], duration: '2h 20min', releaseYear: 2023, rating: 8.9, thumbnail: '/src/assets/Image (60).png', bannerImage: '/src/assets/Image (60).png', videoUrl: 'https://www.youtube.com/watch?v=cqGjhVJWtEg', cast: [], type: 'movie', createdAt: '2023-06-02T00:00:00Z', views: 7500 },
-      { title: 'The Batman', description: 'When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city\'s hidden corruption.', genre: ['Action', 'Crime', 'Drama'], duration: '2h 56min', releaseYear: 2022, rating: 7.9, thumbnail: '/src/assets/Image (61).png', bannerImage: '/src/assets/Image (61).png', videoUrl: 'https://www.youtube.com/watch?v=mqqft2x_Aa4', cast: [], type: 'movie', createdAt: '2022-03-04T00:00:00Z', views: 5000 },
-      { title: 'The Godfather', description: 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.', genre: ['Crime', 'Drama'], duration: '2h 55min', releaseYear: 1972, rating: 9.2, thumbnail: '/src/assets/Image (62).png', bannerImage: '/src/assets/Image (62).png', videoUrl: 'https://www.youtube.com/watch?v=sY1S34973zA', cast: [], type: 'movie', views: 11000 },
-      { title: 'Forrest Gump', description: 'The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.', genre: ['Drama', 'Romance'], duration: '2h 22min', releaseYear: 1994, rating: 8.8, thumbnail: '/src/assets/Image (63).png', bannerImage: '/src/assets/Image (63).png', videoUrl: 'https://www.youtube.com/watch?v=bLvqoHBptjg', cast: [], type: 'movie', views: 9500 },
-      { title: 'Pulp Fiction', description: 'The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.', genre: ['Crime', 'Drama'], duration: '2h 34min', releaseYear: 1994, rating: 8.9, thumbnail: '/src/assets/Image (64).png', bannerImage: '/src/assets/Image (64).png', videoUrl: 'https://www.youtube.com/watch?v=s7EdQ4FqbhY', cast: [], type: 'movie', views: 8900 },
-      { title: 'Fight Club', description: 'An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.', genre: ['Drama'], duration: '2h 19min', releaseYear: 1999, rating: 8.8, thumbnail: '/src/assets/Image (65).png', bannerImage: '/src/assets/Image (65).png', videoUrl: 'https://www.youtube.com/watch?v=qtRKdVHc-cE', cast: [], type: 'movie', views: 9200 },
-      { title: 'The Boys', description: 'A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.', genre: ['Action', 'Comedy', 'Crime'], duration: '1h', releaseYear: 2019, rating: 8.7, thumbnail: '/src/assets/Image (66).png', bannerImage: '/src/assets/Image (66).png', videoUrl: 'https://www.youtube.com/watch?v=tcrNsIaQkb4', cast: [], type: 'show', views: 8200 },
-      { title: 'House of the Dragon', description: 'An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.', genre: ['Action', 'Adventure', 'Drama'], duration: '1h 2min', releaseYear: 2022, rating: 8.5, thumbnail: '/src/assets/Image (67).png', bannerImage: '/src/assets/Image (67).png', videoUrl: 'https://www.youtube.com/watch?v=DotnJ7tTA34', cast: [], type: 'show', views: 6700 },
-      { title: 'Succession', description: 'The Logan family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.', genre: ['Comedy', 'Drama'], duration: '1h', releaseYear: 2018, rating: 8.8, thumbnail: '/src/assets/Image (68).png', bannerImage: '/src/assets/Image (68).png', videoUrl: 'https://www.youtube.com/watch?v=OzYxJV_rmv8', cast: [], type: 'show', views: 5000 },
-      { title: 'The Wire', description: 'The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement.', genre: ['Crime', 'Drama', 'Thriller'], duration: '59min', releaseYear: 2002, rating: 9.3, thumbnail: '/src/assets/Image (69).png', bannerImage: '/src/assets/Image (69).png', videoUrl: 'https://www.youtube.com/watch?v=uqc1UpO1V40', cast: [], type: 'show', views: 8000 }
+      { title: 'The Matrix', description: 'When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.', genre: ['Action', 'Sci-Fi'], duration: '2h 16min', releaseYear: 1999, rating: 8.7, thumbnail: '/src/assets/Image (55).png', bannerImage: '/src/assets/Image (55).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', views: 9100 },
+      { title: 'Gladiator', description: 'A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.', genre: ['Action', 'Adventure', 'Drama'], duration: '2h 35min', releaseYear: 2000, rating: 8.5, thumbnail: '/src/assets/Image (56).png', bannerImage: '/src/assets/Image (56).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', views: 5400 },
+      { title: 'Dune: Part Two', description: 'Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.', genre: ['Action', 'Adventure', 'Drama'], duration: '2h 46min', releaseYear: 2024, rating: 8.9, thumbnail: '/src/assets/Image (57).png', bannerImage: '/src/assets/Image (57).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', createdAt: '2024-03-01T00:00:00Z', views: 4000 },
+      { title: 'Oppenheimer', description: 'The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.', genre: ['Biography', 'Drama', 'History'], duration: '3h', releaseYear: 2023, rating: 8.6, thumbnail: '/src/assets/Image (58).png', bannerImage: '/src/assets/Image (58).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', createdAt: '2023-07-21T00:00:00Z', views: 6000 },
+      { title: 'John Wick: Chapter 4', description: 'John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy.', genre: ['Action', 'Crime', 'Thriller'], duration: '2h 49min', releaseYear: 2023, rating: 8.3, thumbnail: '/src/assets/Image (59).png', bannerImage: '/src/assets/Image (59).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', createdAt: '2023-03-24T00:00:00Z', views: 8000 },
+      { title: 'Spider-Man: Across the Spider-Verse', description: 'Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.', genre: ['Animation', 'Action', 'Adventure'], duration: '2h 20min', releaseYear: 2023, rating: 8.9, thumbnail: '/src/assets/Image (60).png', bannerImage: '/src/assets/Image (60).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', createdAt: '2023-06-02T00:00:00Z', views: 7500 },
+      { title: 'The Batman', description: 'When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city\'s hidden corruption.', genre: ['Action', 'Crime', 'Drama'], duration: '2h 56min', releaseYear: 2022, rating: 7.9, thumbnail: '/src/assets/Image (61).png', bannerImage: '/src/assets/Image (61).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', createdAt: '2022-03-04T00:00:00Z', views: 5000 },
+      { title: 'The Godfather', description: 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.', genre: ['Crime', 'Drama'], duration: '2h 55min', releaseYear: 1972, rating: 9.2, thumbnail: '/src/assets/Image (62).png', bannerImage: '/src/assets/Image (62).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', views: 11000 },
+      { title: 'Forrest Gump', description: 'The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.', genre: ['Drama', 'Romance'], duration: '2h 22min', releaseYear: 1994, rating: 8.8, thumbnail: '/src/assets/Image (63).png', bannerImage: '/src/assets/Image (63).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', views: 9500 },
+      { title: 'Pulp Fiction', description: 'The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.', genre: ['Crime', 'Drama'], duration: '2h 34min', releaseYear: 1994, rating: 8.9, thumbnail: '/src/assets/Image (64).png', bannerImage: '/src/assets/Image (64).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', views: 8900 },
+      { title: 'Fight Club', description: 'An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.', genre: ['Drama'], duration: '2h 19min', releaseYear: 1999, rating: 8.8, thumbnail: '/src/assets/Image (65).png', bannerImage: '/src/assets/Image (65).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'movie', views: 9200 },
+      { title: 'The Boys', description: 'A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.', genre: ['Action', 'Comedy', 'Crime'], duration: '1h', releaseYear: 2019, rating: 8.7, thumbnail: '/src/assets/Image (66).png', bannerImage: '/src/assets/Image (66).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'show', views: 8200 },
+      { title: 'House of the Dragon', description: 'An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.', genre: ['Action', 'Adventure', 'Drama'], duration: '1h 2min', releaseYear: 2022, rating: 8.5, thumbnail: '/src/assets/Image (67).png', bannerImage: '/src/assets/Image (67).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'show', views: 6700 },
+      { title: 'Succession', description: 'The Logan family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.', genre: ['Comedy', 'Drama'], duration: '1h', releaseYear: 2018, rating: 8.8, thumbnail: '/src/assets/Image (68).png', bannerImage: '/src/assets/Image (68).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'show', views: 5000 },
+      { title: 'The Wire', description: 'The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement.', genre: ['Crime', 'Drama', 'Thriller'], duration: '59min', releaseYear: 2002, rating: 9.3, thumbnail: '/src/assets/Image (69).png', bannerImage: '/src/assets/Image (69).png', videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4', cast: [], type: 'show', views: 8000 }
     ];
 
     await Video.create(sampleVideos);

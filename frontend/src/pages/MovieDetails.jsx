@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import API from '../api/axios';
 import { useAuth } from '../context/AuthContext';
-import ReactPlayer from 'react-player';
+
 import { FaPlay, FaPlus, FaHeart, FaStar, FaCalendar, FaClock, FaGlobe, FaVolumeUp } from 'react-icons/fa';
 import './MovieDetails.css';
 
@@ -14,6 +14,7 @@ const MovieDetails = () => {
   const [loading, setLoading] = useState(true);
   const [playing, setPlaying] = useState(false);
   const [showPlayer, setShowPlayer] = useState(false);
+  const [playerError, setPlayerError] = useState(false);
 
   useEffect(() => {
     fetchVideo();
@@ -46,6 +47,7 @@ const MovieDetails = () => {
     }
     setShowPlayer(true);
     setPlaying(true);
+    setPlayerError(false);
   };
 
   if (loading) return <div className="loading" style={{ minHeight: '100vh' }}><div className="spinner"></div></div>;
@@ -56,16 +58,18 @@ const MovieDetails = () => {
       {showPlayer ? (
         <div className="player-fullscreen">
           <div className="player-wrapper">
-            <ReactPlayer
-              url={video.videoUrl}
-              width="100%"
-              height="100%"
-              playing={playing}
+            <video
+              src={playerError ? "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" : video.videoUrl}
+              autoPlay={playing}
               controls
-              onEnded={() => { setPlaying(false); setShowPlayer(false); }}
+              onError={(e) => {
+                console.error("Video playback error, falling back to default.", e);
+                if (!playerError) setPlayerError(true);
+              }}
+              onEnded={() => { setPlaying(false); setShowPlayer(false); setPlayerError(false); }}
             />
           </div>
-          <button className="close-player btn-secondary" onClick={() => { setShowPlayer(false); setPlaying(false); }}>
+          <button className="close-player btn-secondary" onClick={() => { setShowPlayer(false); setPlaying(false); setPlayerError(false); }}>
             Close Player
           </button>
         </div>
