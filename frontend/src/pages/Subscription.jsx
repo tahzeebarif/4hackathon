@@ -163,7 +163,7 @@ const Subscription = () => {
             {/* Trial Banner */}
             <div className="trial-banner" style={{ marginTop: '100px' }}>
               <img 
-                src="/src/assets/image.png" 
+                src="/assets/image.png" 
                 alt="Free Trial Background" 
                 className="trial-bg" 
               />

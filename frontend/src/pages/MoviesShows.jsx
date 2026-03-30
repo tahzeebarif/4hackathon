@@ -34,11 +34,11 @@ const MoviesShows = () => {
   };
 
   const genreData = [
-    { name: 'Action', posters: ['/src/assets/Image (38).png', '/src/assets/Image (43).png', '/src/assets/Image (47).png', '/src/assets/Image (51).png'] },
-    { name: 'Adventure', posters: ['/src/assets/Image (38).png', '/src/assets/Image (39).png', '/src/assets/Image (40).png', '/src/assets/Image (41).png'] },
-    { name: 'Comedy', posters: ['/src/assets/Image (43).png', '/src/assets/Image (44).png', '/src/assets/Image (45).png', '/src/assets/Image (46).png'] },
-    { name: 'Drama', posters: ['/src/assets/Image (47).png', '/src/assets/Image (48).png', '/src/assets/Image (49).png', '/src/assets/Image (50).png'] },
-    { name: 'Horror', posters: ['/src/assets/Image (45).png', '/src/assets/Image (51).png', '/src/assets/Image (53).png', '/src/assets/Image (54).png'] },
+    { name: 'Action', posters: ['/assets/Image (38).png', '/assets/Image (43).png', '/assets/Image (47).png', '/assets/Image (51).png'] },
+    { name: 'Adventure', posters: ['/assets/Image (38).png', '/assets/Image (39).png', '/assets/Image (40).png', '/assets/Image (41).png'] },
+    { name: 'Comedy', posters: ['/assets/Image (43).png', '/assets/Image (44).png', '/assets/Image (45).png', '/assets/Image (46).png'] },
+    { name: 'Drama', posters: ['/assets/Image (47).png', '/assets/Image (48).png', '/assets/Image (49).png', '/assets/Image (50).png'] },
+    { name: 'Horror', posters: ['/assets/Image (45).png', '/assets/Image (51).png', '/assets/Image (53).png', '/assets/Image (54).png'] },
   ];
   
   // Categorize for carousels
@@ -58,7 +58,7 @@ const MoviesShows = () => {
   const featured = videos.find(v => v.title === 'Avengers: Endgame') || videos.find(v => v.featured) || {
     title: 'Avengers: Endgame',
     description: "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
-    bannerImage: '/src/assets/avengers_endgame_hero.png',
+    bannerImage: '/assets/avengers_endgame_hero.png',
     _id: 'featured'
   };
 
@@ -95,10 +95,10 @@ const MoviesShows = () => {
             <div key={video._id} className={`video-card-v3`} onClick={() => navigate(`/movie/${video._id}`)}>
                <div className="card-poster-wrapper">
                  <img 
-                   src={video.thumbnail || '/src/assets/Image (38).png'} 
+                   src={video.thumbnail || '/assets/Image (38).png'} 
                    alt={video.title || "Movie"} 
                    className="card-img" 
-                   onError={(e) => { e.target.onerror = null; e.target.src = '/src/assets/Image (38).png'; }}
+                   onError={(e) => { e.target.onerror = null; e.target.src = '/assets/Image (38).png'; }}
                  />
                </div>
                
@@ -232,7 +232,7 @@ const MoviesShows = () => {
         {/* Trial CTA */}
         <div className="trial-banner" style={{ marginTop: '100px' }}>
           <img 
-            src="/src/assets/image.png" 
+            src="/assets/image.png" 
             alt="Free Trial Background" 
             className="trial-bg" 
           />

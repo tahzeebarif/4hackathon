@@ -48,7 +48,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src="/src/assets/Vector (7).png" alt="" className="logo-img" style={{height: "35px"}} />
+          <img src="/assets/Vector (7).png" alt="" className="logo-img" style={{height: "35px"}} />
           <span>Stream<span className="logo-text">Vibe</span></span>
         </Link>
 

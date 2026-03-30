@@ -34,29 +34,29 @@ const Home = () => {
   }, []);
 
   const posters = [
-    '/src/assets/Image (38).png', '/src/assets/Image (39).png', '/src/assets/Image (40).png', 
-    '/src/assets/Image (41).png', '/src/assets/Image (43).png', '/src/assets/Image (44).png',
-    '/src/assets/Image (45).png', '/src/assets/Image (46).png', '/src/assets/Image (47).png',
-    '/src/assets/Image (48).png', '/src/assets/Image (49).png', '/src/assets/Image (50).png',
-    '/src/assets/Image (51).png', '/src/assets/Image (53).png', '/src/assets/Image (54).png',
-    '/src/assets/d4adb32dd6d67d4376f7f0966e8a1e5c5ecf185a.png'
+    '/assets/Image (38).png', '/assets/Image (39).png', '/assets/Image (40).png', 
+    '/assets/Image (41).png', '/assets/Image (43).png', '/assets/Image (44).png',
+    '/assets/Image (45).png', '/assets/Image (46).png', '/assets/Image (47).png',
+    '/assets/Image (48).png', '/assets/Image (49).png', '/assets/Image (50).png',
+    '/assets/Image (51).png', '/assets/Image (53).png', '/assets/Image (54).png',
+    '/assets/d4adb32dd6d67d4376f7f0966e8a1e5c5ecf185a.png'
   ];
 
   const genres = [
-    { name: 'Action', posters: ['/src/assets/Image (38).png', '/src/assets/Image (43).png', '/src/assets/Image (47).png', '/src/assets/Image (51).png'] },
-    { name: 'Adventure', posters: ['/src/assets/Image (38).png', '/src/assets/Image (39).png', '/src/assets/Image (40).png', '/src/assets/Image (41).png'] },
-    { name: 'Comedy', posters: ['/src/assets/Image (43).png', '/src/assets/Image (44).png', '/src/assets/Image (45).png', '/src/assets/Image (46).png'] },
-    { name: 'Drama', posters: ['/src/assets/Image (47).png', '/src/assets/Image (48).png', '/src/assets/Image (49).png', '/src/assets/Image (50).png'] },
-    { name: 'Horror', posters: ['/src/assets/d4adb32dd6d67d4376f7f0966e8a1e5c5ecf185a.png', '/src/assets/Image (51).png', '/src/assets/Image (53).png', '/src/assets/Image (54).png'] },
+    { name: 'Action', posters: ['/assets/Image (38).png', '/assets/Image (43).png', '/assets/Image (47).png', '/assets/Image (51).png'] },
+    { name: 'Adventure', posters: ['/assets/Image (38).png', '/assets/Image (39).png', '/assets/Image (40).png', '/assets/Image (41).png'] },
+    { name: 'Comedy', posters: ['/assets/Image (43).png', '/assets/Image (44).png', '/assets/Image (45).png', '/assets/Image (46).png'] },
+    { name: 'Drama', posters: ['/assets/Image (47).png', '/assets/Image (48).png', '/assets/Image (49).png', '/assets/Image (50).png'] },
+    { name: 'Horror', posters: ['/assets/d4adb32dd6d67d4376f7f0966e8a1e5c5ecf185a.png', '/assets/Image (51).png', '/assets/Image (53).png', '/assets/Image (54).png'] },
   ];
 
   const devices = [
-    { name: 'Smartphones', icon: '/src/assets/Vector (8).png', desc: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from Google Play Store or Apple App Store.' },
-    { name: 'Tablet', icon: '/src/assets/Frame (1).png', desc: 'Enjoy the best streaming experience on your tablet. Optimized for large screens and high-resolution displays.' },
-    { name: 'Smart TV', icon: '/src/assets/Union.png', desc: 'Stream your favorite movies and shows on the big screen. Support for Samsung, LG, and Android TV.' },
-    { name: 'Laptops', icon: '/src/assets/Union (1).png', desc: 'Browse and stream directly from your web browser. No installation required for Windows and macOS.' },
-    { name: 'Gaming Consoles', icon: '/src/assets/Union (2).png', desc: 'StreamVibe is available on PlayStation and Xbox. Turn your gaming console into an entertainment hub.' },
-    { name: 'VR Headsets', icon: '/src/assets/Union (3).png', desc: 'Immerse yourself in 360-degree experiences. Support for Oculus and Meta Quest.' },
+    { name: 'Smartphones', icon: '/assets/Vector (8).png', desc: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from Google Play Store or Apple App Store.' },
+    { name: 'Tablet', icon: '/assets/Frame (1).png', desc: 'Enjoy the best streaming experience on your tablet. Optimized for large screens and high-resolution displays.' },
+    { name: 'Smart TV', icon: '/assets/Union.png', desc: 'Stream your favorite movies and shows on the big screen. Support for Samsung, LG, and Android TV.' },
+    { name: 'Laptops', icon: '/assets/Union (1).png', desc: 'Browse and stream directly from your web browser. No installation required for Windows and macOS.' },
+    { name: 'Gaming Consoles', icon: '/assets/Union (2).png', desc: 'StreamVibe is available on PlayStation and Xbox. Turn your gaming console into an entertainment hub.' },
+    { name: 'VR Headsets', icon: '/assets/Union (3).png', desc: 'Immerse yourself in 360-degree experiences. Support for Oculus and Meta Quest.' },
   ];
 
   const faqs = [
@@ -89,7 +89,7 @@ const Home = () => {
           </div>
           <div className="hero-overlay"></div>
           <div className="hero-large-logo">
-            <img src="/src/assets/Vector (5).png" alt="" />
+            <img src="/assets/Vector (5).png" alt="" />
           </div>
           <div className="hero-content" style={{ marginTop: '250px' }}>
             <h1>The Best Streaming Experience</h1>
@@ -241,7 +241,7 @@ const Home = () => {
           {/* Trial CTA */}
           <div className="trial-banner" style={{ marginTop: '80px' }}>
             <img 
-              src="/src/assets/image.png" 
+              src="/assets/image.png" 
               alt="Free Trial Background" 
               className="trial-bg" 
             />
